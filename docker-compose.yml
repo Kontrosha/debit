@@ -1,0 +1,10 @@
+version: '3'
+services:
+  server:
+    build: .
+    command: python ./server.py
+    ports:
+      - "5001:5001"
+  client:
+    build: .
+    command: python ./client.py

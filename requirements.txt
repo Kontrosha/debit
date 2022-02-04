@@ -1,0 +1,5 @@
+pip~=21.1.2
+wheel~=0.36.2
+setuptools~=57.0.0
+requests~=2.27.1
+Flask~=2.0.2
